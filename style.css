@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'Panton Rust Black-Trial';
+    src: url('path/PantonRustBlack-Trial-Gr.eot');
+    src: url('path/PantonRustBlack-Trial-Gr.eot?#iefix') format('embedded-opentype'),
+        url('path/PantonRustBlack-Trial-Gr.woff2') format('woff2'),
+        url('path/PantonRustBlack-Trial-Gr.woff') format('woff'),
+        url('path/PantonRustBlack-Trial-Gr.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media screen and (max-width:1440px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #212121;
+        color: #fff;
+        padding: 16px;
+    }
+
+    .logo {
+        width: 125px;
+    }
+
+    header li {
+        list-style: none;
+        float: left;
+        margin-right: 24px;
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    header li:hover {
+        animation: scale 300ms both;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        text-shadow: 0 0 3px red;
+        color: red;
+
+    }
+
+    @keyframes scale {
+        to {
+            scale: 1.1;
+        }
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: 32px;
+    }
+
+    main > h1 {
+        margin: 50px auto;
+        font-weight: 900;
+        font-size: 3em;
+        font-family: 'Panton Rust Black-Trial';
+    }
+
+    .section-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100vw;
+    }
+
+    main > h1 {
+        color: red;
+        font-size: 4em;
+    }
+
+    main h2 {
+        color: red;
+    }
+
+    .delivery {
+        width: 400px;
+    }
+
+    .lunch-time {
+        width: 250px;
+    }
+
+    .cardapio h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        width: 90vw;
+        background-color: #212121;
+        border-radius: 42px 0 42px 0;
+        padding: 16px;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    .cardapio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .cardapio article {
+        margin-top: 32px;
+    }
+
+    .cardapio ul {
+        display: inline-flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    header li {
+        float: none;
+        margin-bottom: 16px;
+        background-color: #FAB260;
+        border-radius: 16px;
+        padding: 16px;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    header li:hover {
+        animation: scale 300ms both;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-shadow: 0 0 3px red;
+        color: red;
+
+    }
+
+    @keyframes scale {
+        to {
+            scale: 1.1;
+        }
+    }
+
+    .delivery {
+        width: 520px;
+        margin-top: 100px;
+        margin-bottom: 142px;
+    }
+
+    .lunch-time {
+        width: 300px;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .h2 {
+        font-size: 1.3em;
+    }
+
+
+}
