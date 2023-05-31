@@ -8,13 +8,17 @@
     letter-spacing: 1px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     background-color: #212121;
     color: #fff;
-    padding: 16px;
+    padding: 14px;
 }
 
 .logo {
@@ -25,7 +29,7 @@ header {
 header ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 24px;
     list-style: none;
     font-size: 2em;
     font-weight: 500;
@@ -100,7 +104,7 @@ main h2 {
     width: 250px;
 }
 
-.cardapio h1 {
+#cardapio h1 {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -112,20 +116,31 @@ main h2 {
     margin-top: 30px;
 }
 
-.cardapio {
+#cardapio {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    background-color: red;
+    width: 90vw;
+    border-radius: 42px 0 42px 0;
+    padding: 16px;
+    margin-bottom: 16px;
 }
 
-.cardapio article {
+#cardapio article {
     margin-top: 32px;
+    background-color: #FAB260;
+    padding: 16px;
+    font-size: 2em;
+    border-radius: 8px;
+    border-radius: 42px 0 42px 0;
 }
 
-.cardapio ul {
+#cardapio ul {
     display: inline-flex;
     flex-direction: column;
+    list-style: none;
 }
 
 
@@ -167,7 +182,7 @@ main h2 {
 
     header i {
         opacity: 1;
-        animation: slide 1000ms infinite;
+        animation: slide 2000ms infinite;
     }
 
     .ph-arrow-circle-up {
@@ -184,6 +199,7 @@ main h2 {
         to {
           margin-bottom: 6px;
         }
+    }
 
     a {
         color: #fff;
@@ -208,5 +224,8 @@ main h2 {
         font-size: 1.3em;
     }
 
+    #cardapio article {
+        font-size: 1em;
+    }
 
 }
