@@ -46,6 +46,10 @@ a:hover {
 
 }
 
+header i {
+    opacity: 0;
+}
+
 @keyframes scale {
     to {
         scale: 1.1;
@@ -133,6 +137,7 @@ main h2 {
 
     header {
         justify-content: center;
+        position: relative;
     }
 
     header ul {
@@ -159,6 +164,26 @@ main h2 {
         animation: none;
         box-shadow:  1px 3px 3px #fff;
     }
+
+    header i {
+        opacity: 1;
+        animation: slide 1000ms infinite;
+    }
+
+    .ph-arrow-circle-up {
+        position: absolute;
+        bottom: 5px;
+        
+    }
+
+    @keyframes slide {
+        from {
+          margin-top: 6px;
+        }
+      
+        to {
+          margin-bottom: 6px;
+        }
 
     a {
         color: #fff;
