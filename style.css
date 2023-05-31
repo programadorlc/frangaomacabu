@@ -123,7 +123,7 @@ main h2 {
 
 @media screen and (max-width:850px) {
 
-    body {
+    *, body {
         overflow-x: hidden;
     }
 
