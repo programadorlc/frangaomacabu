@@ -135,7 +135,6 @@ main h2 {
         margin-top: 32px;
         justify-content: center;
         align-items: center;
-        : 74px;
     }
 
     .logo {
@@ -169,7 +168,7 @@ main h2 {
     }
 
     .delivery {
-        width: 520px;
+        width: 490px;
         margin-top: 100px;
         margin-bottom: 142px;
     }
