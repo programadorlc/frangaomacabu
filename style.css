@@ -152,10 +152,12 @@ main h2 {
         border-radius: 16px;
         padding: 16px;
         text-shadow: 1px 1px 3px black;
+        box-shadow:  1px 3px 3px red;
     }
 
     header li:hover {
         animation: none;
+        box-shadow:  1px 3px 3px #fff;
     }
 
     a {
