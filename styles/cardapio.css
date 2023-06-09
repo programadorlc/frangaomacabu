@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive, Roboto;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C9150A;
+}
+
+header {
+    color: #fff;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 0 24px 16px;
+    border-bottom: 25px solid #F9B260;
+    background: #101010;
+    box-shadow: 0 0 45px black;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 70px;
+    margin-left: 30px;
+}
+
+h1 {
+    margin: auto;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .ph-arrow-left {
+    font-size: 2.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main {
+    display: flex;
+}
+
+.cardapio {
+    width: 100vw;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #101010;
+    padding: 0 18px;
+    font-size: 2em;
+    height: 64px;
+    border-radius: 8px 0 0 8px;
+    letter-spacing: 2px;
+}
+
+.galinha {
+    border-radius: 0 8px 8px 0;
+    width: 64px;
+    height: 64px;
+}
+
+.itens-cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.itens-cardapio li {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 0.65em;
+}
+
+.largura {
+    width: 200px;
+}
+
+.add {
+    cursor: pointer;
+}
+
+.pedidos {
+    width: 40vw;
+    position: relative;
+    background-color: #10101050;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.pedidos #titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.pedidos .h2 {
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #101010;
+    padding: 0 18px;
+    font-size: 2em;
+    height: 64px;
+    border-radius: 8px 0 0 8px;
+    letter-spacing: 2px;
+}
+
+.carrinho {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    /* height: 36vw; */
+}
+
+.total-pedidos {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    align-items: center;
+    text-align: center;
+    background-color: #101010;
+    border-radius: 8px;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+
+.total-pedidos h2 {
+    margin-left: 16px;
+}
+
+button {
+    background-color: #F9B260;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #C9150A;
+    text-shadow: 0 0 3px black;
+}
+
+.frango {
+    background: url(/assets/images/1.jpg) center/cover no-repeat;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+
+.alcatra {
+    background: url(/assets/images/2.jpg) center/cover no-repeat;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+
+.costela {
+    background: url(/assets/images/3.jpg) center/cover no-repeat;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+
+.frito {
+    background: url(/assets/images/4.jpg) center/cover no-repeat;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+
+.salpicao-img {
+    background: url(/assets/images/5.jpg) center/cover no-repeat;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+
+.b-frita {
+    background: url(/assets/images/6.jpg) center/cover no-repeat;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+
+.queijo {
+    background: url(/assets/images/7.jpg) center/cover no-repeat;
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px black;
+}
+
+
+

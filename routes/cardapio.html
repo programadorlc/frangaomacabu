@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/cardapio.css">
+    <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
+    <title>Cardápio</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="/routes/index.html">
+            <i class="ph-bold ph-arrow-left"></i>
+        </a>
+
+        <img class="logo" src="/assets/images/logo.png" alt="Logo Frangão">
+        <h1>CARDÁPIO</h1>
+    </header>
+
+    <main>
+
+        <div class="cardapio">
+            <div>
+                <div id="titulo">
+                    <h2 class="h2">CARNES</h2>
+                    <img class="galinha" src="/assets/images/icons8-galinha-64.png" style="background-color: black;">
+                </div>
+
+                <ul class="itens-cardapio">
+                    <li>
+                        <span class="frango"></span>
+                        <span class="largura">FRANGO ASSADO</span>
+                        <span>R$ 45,00</span>
+                        <img onclick="fAssado()" id="frango-assado" class="add" src="/assets/images/plus-circle-bold.svg">
+                    </li>
+                    <li>
+                        <span class="alcatra"></span>
+                        <span class="largura">ALCATRA SUÍNA
+                            <p>com molho bbq (800g)</p>
+                        </span>
+                        <span>R$ 38,00</span>
+                        <img onclick="aSuina()" id="alcatra-suina" class="add" src="/assets/images/plus-circle-bold.svg">
+                    </li>
+                    <li>
+                        <span class="costela"></span>
+                        <span class="largura">COSTELA SUÍNA
+                            <p>com molho bbq e batata frita (800g)</p>
+                        </span>
+                        <span>R$ 50,00</span>
+                        <img onclick="cSuina()" id="costela-suina" class="add" src="/assets/images/plus-circle-bold.svg">
+                    </li>
+                    <li>
+                        <span class="frito"></span>
+                        <span class="largura">FRANGO FRITO
+                            <p>(8 pedaços)</p>
+                        </span>
+                        <span>R$ 36,00</span>
+                        <img onclick="fFrito()" id="frango-frito" class="add" src="/assets/images/plus-circle-bold.svg">
+                    </li>
+                </ul>
+            </div>
+
+
+            <div>
+                <div id="titulo">
+                    <h2 class="h2">ACOMPANHAMENTOS</h2>
+                    <img class="galinha" src="/assets/images/icons8-batatas-fritas-64.png"
+                        style="background-color: black;">
+                </div>
+                <ul class="itens-cardapio">
+                    <li>
+                        <span class="salpicao-img"></span>
+                        <span class="largura">SALPICÃO
+                            <p>(500g)</p>
+                        </span>
+                        <span>R$ 25,00</span>
+                        <img onclick="slp()" id="salpicao" class="add" src="/assets/images/plus-circle-bold.svg">
+                    </li>
+                    <li>
+                        <span class="b-frita"></span>
+                        <span class="largura">BATATA FRITA
+                            <p>(400g)</p>
+                        </span>
+                        <span>R$ 15,00</span>
+                        <img onclick="bFrita()" id="batata-frita" class="add" src="/assets/images/plus-circle-bold.svg">
+                    </li>
+                    <li>
+                        <span class="queijo"></span>
+                        <span class="largura">ALMOFADAS DE QUEIJO
+                            <p>(12 unidade)</p>
+                        </span>
+                        <span>R$ 20,00</span>
+                        <img onclick="aQueijo()" id="almofadas-queijo" class="add" src="/assets/images/plus-circle-bold.svg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pedidos">
+            <div id="titulo">
+                <h2 class="h2">Seus pedidos</h2>
+                <img class="galinha" src="/assets/images/icons8-carrinho-de-compras-64.png"
+                    style="background-color: black;">
+            </div>
+
+            <div class="carrinho">
+                <ul id="p">
+                    
+                </ul>
+            </div>
+
+            <div class="total-pedidos">
+                <h2>
+                    valor total = R$ <span #valor-total></span>
+                </h2>
+
+                <a class="fazer-pedido" href="#">
+                    <button>FAZER PEDIDO</button>
+                </a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
